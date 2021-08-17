@@ -1,9 +1,9 @@
 # CodeIgniter Copy File 12
 Copy file 12 is a sample module for CodeIgniter
 
-|- CodeIgniter Composer Installer
+|-- [CodeIgniter Composer Installer](https://github.com/kenjis/codeigniter-composer-installer).
 
-|- HMVC using Composer Installers Extender
+|-- [Composer Installers Extender](https://github.com/oomphinc/composer-installers-extender)
 
 ## Install for CodeIgniter Composer Installer
 ```
@@ -49,8 +49,7 @@ views/
 
 ## Directory Structure for HMVC using Composer Installers Extender
 
-in ci-copy-file-12 directory under vendor
-
+under application/module directory will be
 ```
 controllers/
     Ci-copy-file-12.php
@@ -64,9 +63,7 @@ views/
 
 ```
 
-## Output Directory Structure for HMVC using Composer Installers Extender
-
-in ci-copy-file-12 directory under vendor
+## Output Directory Structure for HMVC Composer Installers Extender
 
 under application/module directory will be
 
@@ -82,4 +79,5 @@ ci-copy-file-12/
                             Ci-copy-file-form.php
                             Ci-copy-file-12_read.php
 ```
+
 
