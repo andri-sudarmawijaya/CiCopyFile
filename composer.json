@@ -1,6 +1,6 @@
 {
     "name": "andri-sudarmawijaya/ci-copy-file-12",
-    "description": "CI Customer Package",
+    "description": "CI Module for CodeIgniter HMVC ",
     "type": "codeigniter-module",
     "license": "MIT",
     "authors": [
