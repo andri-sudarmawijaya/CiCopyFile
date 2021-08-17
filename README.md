@@ -9,15 +9,15 @@ composer require andri-sudarmawijaya/ci-copy-file-12:1.0.x-dev
 ```
 in vendor
 ```
-- controllers
-  |- Ci-copy-file-12.php
-- models
-  |- Ci-copy-file-12_model.php
-- views
-  |- ci-copy-file-12
-     |- Ci-copy-file-12_list.php
-     |- Ci-copy-file-form.php
-     |- Ci-copy-file-12_read.php
+controllers
+  |_ Ci-copy-file-12.php
+models
+  |_ Ci-copy-file-12_model.php
+views
+  |_ ci-copy-file-12
+     |_ Ci-copy-file-12_list.php
+     |_ Ci-copy-file-form.php
+     |_ Ci-copy-file-12_read.php
 ```
 under application/module will be
 
