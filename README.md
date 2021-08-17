@@ -47,22 +47,6 @@ views/
 
 ```
 
-## Directory Structure for HMVC using Composer Installers Extender
-
-under application/module directory will be
-```
-controllers/
-    Ci-copy-file-12.php
-models/
-    Ci-copy-file-12_model.php
-views/
-     ci-copy-file-12/
-        Ci-copy-file-12_list.php
-        Ci-copy-file-form.php
-        Ci-copy-file-12_read.php
-
-```
-
 ## Output Directory Structure for HMVC Composer Installers Extender
 
 under application/module directory will be
