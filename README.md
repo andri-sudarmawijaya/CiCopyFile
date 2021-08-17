@@ -22,12 +22,12 @@ views
 under application/module will be
 
 ```
-ci-copy-file-12
-  controllers
+ci-copy-file-12/
+  controllers/
      Ci-copy-file-12.php
-  models
+  models/
      Ci-copy-file-12_model.php
-  views
+  views/
      ci-copy-file-12
         Ci-copy-file-12_list.php
         Ci-copy-file-form.php
