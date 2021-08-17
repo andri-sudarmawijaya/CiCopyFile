@@ -7,7 +7,7 @@ composer require andri-sudarmawijaya/ci-copy-file-12:1.0.x-dev
 ```
 ## Structure
 
-in vendor
+in ci-copy-file-12 directory under vendor
 
 ```
 controllers/
@@ -22,7 +22,7 @@ views/
 
 ```
 
-under application/module will be
+under application/module directory will be
 
 ```
 ci-copy-file-12/
