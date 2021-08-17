@@ -6,6 +6,20 @@ Copy file 12 is a sample module for CodeIgniter
 |-- [Composer Installers Extender](https://github.com/oomphinc/composer-installers-extender)
 
 ## Install for CodeIgniter Composer Installer
+in output installation create an array item
+```
+'ci-copy-file-12' => array(
+    'site'  => 'github',
+    'user'  => 'andri-sudarmawijaya',
+    'repos' => 'ci-copy-file-12',
+    'name'  => 'CodeIgniter Copy File 12',
+    'dir'   => array('controllers','models', 'views'),
+    'msg'   => 'See https://github.com/andri-sudarmawijaya/ci-copy-file-12/',
+    'example_branch' => 'master',
+),
+```
+
+install script using this command
 ```
 php bin/install.php ci-copy-file-12 master
 ```
