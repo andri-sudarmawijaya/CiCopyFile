@@ -10,14 +10,12 @@ composer require andri-sudarmawijaya/ci-copy-file-12:1.0.x-dev
 in vendor
 
 ```
-views/
+controllers/
     Ci-copy-file-12.php
 models/
     Ci-copy-file-12_model.php
 views/
      ci-copy-file-12/
-        file1.txt
-        file2.txt
         Ci-copy-file-12_list.php
         Ci-copy-file-form.php
         Ci-copy-file-12_read.php
@@ -28,14 +26,14 @@ under application/module will be
 
 ```
 ci-copy-file-12/
-  controllers/
-     Ci-copy-file-12.php
-  models/
-     Ci-copy-file-12_model.php
-  views/
-     ci-copy-file-12
-        Ci-copy-file-12_list.php
-        Ci-copy-file-form.php
-        Ci-copy-file-12_read.php
+                controllers/
+                        Ci-copy-file-12.php
+                models/
+                        Ci-copy-file-12_model.php
+                views/
+                        ci-copy-file-12/
+                            Ci-copy-file-12_list.php
+                            Ci-copy-file-form.php
+                            Ci-copy-file-12_read.php
 ```
 
