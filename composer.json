@@ -1,6 +1,7 @@
 {
-    "name": "andri-sudarmawijaya/ci-copy-file-11",
-    "description": "CI copy file using SlowProg\\CopyFile",
+    "name": "andri-sudarmawijaya/ci-customer",
+    "description": "CI Customer Package",
+    "type": "codeigniter-module",
     "license": "MIT",
     "authors": [
         {
@@ -8,24 +9,15 @@
             "email": "andri.sudarmawijaya@gmail.com"
         }
     ],
-    "require":{
-        "twbs/bootstrap": "~3.3",
-        "slowprog/composer-copy-file": "~0.3"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "SlowProg\\CopyFile\\ScriptHandler::copy"
-        ],
-        "post-update-cmd": [
-            "SlowProg\\CopyFile\\ScriptHandler::copy"
-        ]
+	"require": {
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "extra": {
-        "copy-file": {
-            "vendor/twbs/bootstrap/fonts/": "web/fonts/"
+        "installer-paths": {
+            "application/modules/": ["type:codeigniter-module"]
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
-    },
-    "branch-alias": {
-        "dev-master": "1.0.x-dev"
-    }
+	}
 }
