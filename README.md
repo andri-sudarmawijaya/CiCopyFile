@@ -6,19 +6,24 @@ Copy file 12 is a sample module for CodeIgniter HMVC using Composer Installers E
 composer require andri-sudarmawijaya/ci-copy-file-12:1.0.x-dev
 ```
 ## Structure
-```
+
 in vendor
+
 ```
-controllers
-  Ci-copy-file-12.php
-models
-  Ci-copy-file-12_model.php
-views
-  ci-copy-file-12
-     Ci-copy-file-12_list.php
-     Ci-copy-file-form.php
-     Ci-copy-file-12_read.php
+views/
+    Ci-copy-file-12.php
+models/
+    Ci-copy-file-12_model.php
+views/
+     ci-copy-file-12/
+        file1.txt
+        file2.txt
+        Ci-copy-file-12_list.php
+        Ci-copy-file-form.php
+        Ci-copy-file-12_read.php
+
 ```
+
 under application/module will be
 
 ```
