@@ -8,40 +8,40 @@ Copy file 12 is a sample module for CodeIgniter
 ## Install for CodeIgniter Composer Installer
 in output installation create an array item
 ```
-'ci-copy-file-12' => array(
+'CiCopyFile' => array(
     'site'  => 'github',
     'user'  => 'andri-sudarmawijaya',
-    'repos' => 'ci-copy-file-12',
+    'repos' => 'CiCopyFile',
     'name'  => 'CodeIgniter Copy File 12',
     'dir'   => array('controllers','models', 'views'),
-    'msg'   => 'See https://github.com/andri-sudarmawijaya/ci-copy-file-12/',
+    'msg'   => 'See https://github.com/andri-sudarmawijaya/CiCopyFile/',
     'example_branch' => 'master',
 ),
 ```
 
 install script using this command
 ```
-php bin/install.php ci-copy-file-12 master
+php bin/install.php CiCopyFile master
 ```
 ## Install for HMVC using Composer Installers Extender
 ```
-composer require andri-sudarmawijaya/ci-copy-file-12:1.0.x-dev
+composer require andri-sudarmawijaya/cicopyfile:1.0.x-dev
 ```
 
 ## Directory Structure
-in ci-copy-file-12 directory under vendor
+in CiCopyFile directory under vendor
 
 ```
 andri-sudarmawijaya/
                     controllers/
-                        Ci-copy-file-12.php
+                        CiCopyFile.php
                     models/
-                        Ci-copy-file-12_model.php
+                        CiCopyFile_model.php
                     views/
-                        ci-copy-file-12/
-                            Ci-copy-file-12_list.php
-                            Ci-copy-file-form.php
-                            Ci-copy-file-12_read.php
+                        CiCopyFile/
+                            CiCopyFile_list.php
+                            CiCopyFile-form.php
+                            CiCopyFile_read.php
 
 ```
 
@@ -50,14 +50,14 @@ andri-sudarmawijaya/
 under application directory will be :
 ```
 controllers/
-    Ci-copy-file-12.php
+    CiCopyFile.php
 models/
-    Ci-copy-file-12_model.php
+    CiCopyFile_model.php
 views/
-     ci-copy-file-12/
-        Ci-copy-file-12_list.php
-        Ci-copy-file-form.php
-        Ci-copy-file-12_read.php
+     CiCopyFile/
+        CiCopyFile_list.php
+        CiCopyFile-form.php
+        CiCopyFile_read.php
 
 ```
 
@@ -66,16 +66,16 @@ views/
 under application/module directory will be
 
 ```
-ci-copy-file-12/
+CiCopyFile/
                 controllers/
-                        Ci-copy-file-12.php
+                        CiCopyFile.php
                 models/
-                        Ci-copy-file-12_model.php
+                        CiCopyFile_model.php
                 views/
-                        ci-copy-file-12/
-                            Ci-copy-file-12_list.php
-                            Ci-copy-file-form.php
-                            Ci-copy-file-12_read.php
+                        CiCopyFile/
+                            CiCopyFile_list.php
+                            CiCopyFile-form.php
+                            CiCopyFile_read.php
 ```
 
 
