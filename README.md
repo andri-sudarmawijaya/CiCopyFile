@@ -6,7 +6,7 @@ Copy file 12 is a sample module for CodeIgniter
 |-- [Composer Installers Extender](https://github.com/oomphinc/composer-installers-extender)
 
 ## Install for CodeIgniter Composer Installer
-in output installation create an array item
+at install.php after installation create an array item
 ```
 'CiCopyFile' => array(
     'site'  => 'github',
@@ -23,6 +23,7 @@ install script using this command
 ```
 php bin/install.php CiCopyFile master
 ```
+
 ## Install for HMVC using Composer Installers Extender
 ```
 composer require andri-sudarmawijaya/cicopyfile:1.0.x-dev
@@ -58,13 +59,11 @@ views/
         CiCopyFile_list.php
         CiCopyFile-form.php
         CiCopyFile_read.php
-
 ```
 
 ## Output Directory Structure for HMVC Composer Installers Extender
 
 under application/module directory will be
-
 ```
 CiCopyFile/
                 controllers/
