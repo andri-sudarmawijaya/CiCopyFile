@@ -34,15 +34,15 @@ in CiCopyFile directory under vendor
 
 ```
 andri-sudarmawijaya/
-                    controllers/
-                        CiCopyFile.php
-                    models/
-                        CiCopyFile_model.php
-                    views/
-                        CiCopyFile/
-                            CiCopyFile_list.php
-                            CiCopyFile-form.php
-                            CiCopyFile_read.php
+|   ├── controllers/
+|   |   ├── CiCopyFile.php
+|   ├── models/
+|   |   ├── CiCopyFile_model.php
+|   ├── views/
+|   |   ├── CiCopyFile/
+|   |   |   ├── CiCopyFile_list.php
+|   |   |   ├── CiCopyFile-form.php
+|   |   |   ├── CiCopyFile_read.php
 
 ```
 
@@ -50,15 +50,15 @@ andri-sudarmawijaya/
 
 under application directory will be :
 ```
-controllers/
-    CiCopyFile.php
-models/
-    CiCopyFile_model.php
-views/
-     CiCopyFile/
-        CiCopyFile_list.php
-        CiCopyFile-form.php
-        CiCopyFile_read.php
+├── controllers/
+|   ├── CiCopyFile.php
+├── models/
+|   ├── CiCopyFile_model.php
+|── views/
+|    ├── CiCopyFile/
+|    |   ├── CiCopyFile_list.php
+|    |   ├── CiCopyFile-form.php
+|    |   ├── CiCopyFile_read.php
 ```
 
 ## Output Directory Structure for HMVC Composer Installers Extender
@@ -66,15 +66,15 @@ views/
 under application/module directory will be
 ```
 CiCopyFile/
-                controllers/
-                        CiCopyFile.php
-                models/
-                        CiCopyFile_model.php
-                views/
-                        CiCopyFile/
-                            CiCopyFile_list.php
-                            CiCopyFile-form.php
-                            CiCopyFile_read.php
+├── controllers/
+|   ├── CiCopyFile.php
+├── models/
+|   ├── CiCopyFile_model.php
+├── views/
+|   ├── CiCopyFile/
+|   |   ├── CiCopyFile_list.php
+|   |   ├── CiCopyFile-form.php
+|   |   ├── CiCopyFile_read.php
 ```
 
 
