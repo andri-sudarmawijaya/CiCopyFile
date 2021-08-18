@@ -55,10 +55,10 @@ under application directory will be :
 ├── models/
 |   ├── CiCopyFile_model.php
 |── views/
-|    ├── CiCopyFile/
-|    |   ├── CiCopyFile_list.php
-|    |   ├── CiCopyFile-form.php
-|    |   ├── CiCopyFile_read.php
+|   ├── CiCopyFile/
+|   |   ├── CiCopyFile_list.php
+|   |   ├── CiCopyFile-form.php
+|   |   ├── CiCopyFile_read.php
 ```
 
 ## Output Directory Structure for HMVC Composer Installers Extender
